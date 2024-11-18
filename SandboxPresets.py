@@ -293,7 +293,6 @@ class TSNSandboxPresets:
                 self.myEngineeringPresets.update({text: settingData})
             no += 1
 
-
     def AddPreset(self): #checked and ready for presetn manager
         presetdata = {}
         for x in range(8):
@@ -301,7 +300,6 @@ class TSNSandboxPresets:
         presetdata.update({"hotkey": "Unassigned",
                            "display": False})
         self.myEngineeringPresets.update({self.PresetText: presetdata})
-
 
     def savemyEngineeringPresets(self):
         with open("./data/client_string_set.txt", "r") as f:

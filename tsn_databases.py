@@ -62,4 +62,5 @@ hotkeys = ["KEY_0",
     "KEY_NUMPAD6",
     "KEY_NUMPAD7",
     "KEY_NUMPAD8",
-    "KEY_NUMPAD9"]
+    "KEY_NUMPAD9"
+           ]
